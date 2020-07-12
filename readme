@@ -1,0 +1,10 @@
+just a sample program to interact from express with a mongo DB.
+
+mongo DB -> default port 27017
+$mongo
+$use testDB;
+$db.createCollection('users');
+
+/ -> show records
+/addSomething -> looking for url query param "name="
+after adding something, it will be listed on /
